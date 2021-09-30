@@ -1,8 +1,10 @@
 import React from 'react'
+import Navigation from '../components/Navigation'
 
 export default function About() {
     return (
         <div>
+            <Navigation/>
             <h1>À propos</h1>
             <br />
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem accusantium nam sint vel saepe aperiam nulla debitis vero eius totam vitae aspernatur, similique ipsam odio dolor ratione dolore, exercitationem itaque.
