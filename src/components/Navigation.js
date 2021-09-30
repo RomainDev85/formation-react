@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom'
 export default function Navigation() {
     return (
         <div className="navigation">
-            <NavLink exact to="/" >Accueil</NavLink>
-            <NavLink exact to='/a-propos' >À propos</NavLink>
+            <NavLink exact to="/" activeClassName="nav-active">Accueil</NavLink>
+            <NavLink exact to='/a-propos' activeClassName="nav-active">À propos</NavLink>
         </div>
     )
 }
