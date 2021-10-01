@@ -1,9 +1,14 @@
 import React from 'react'
 
-export default function Card() {
+export default function Card({country}) {
     return (
-        <div>
-            <h1>Card</h1>
-        </div>
+        <li className="card">
+            <img src={country.flag} alt="flag" />
+            <div className="data-container">
+                <ul>
+                    <li>{country.name}</li>
+                </ul>
+            </div>
+        </li>
     )
 }
